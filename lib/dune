@@ -1,0 +1,3 @@
+(library
+ (name compressor)
+ (modules char_frequency))

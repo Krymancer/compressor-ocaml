@@ -1,0 +1,7 @@
+(test
+ (name test_char_frequency)
+ (modules test_char_frequency)
+ (libraries alcotest compressor)
+ (deps
+  ; %{project_root} indicate project root according to https://dune.readthedocs.io/en/stable/concepts/variables.html
+  (file %{project_root}/data/text.txt)))

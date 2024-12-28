@@ -1,0 +1,4 @@
+(executable
+ (public_name compressor)
+ (name main)
+ (libraries compressor))
